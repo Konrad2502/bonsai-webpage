@@ -5,9 +5,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="js/app.min.js" defer></script>
 </head>
 <body>
-    <h1>Testowy projekt</h1>
+    <nav class="navigation">
+        <div class="navigation__logo">
+            <span class="navigation__logo-text"><i class='bx bxs-leaf'></i></i></span>
+            <span class="navigation__name">bonsai</span>
+        </div>
+        <div class="navigation__list">
+            <ul class="navigation__items">
+                <li class="navigation__item ">
+                    <div class="navigation__dropdown"> 
+                        <p> Product</p>
+                        <button class="navigation__dropbtn">
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="navigation__dropdown-content">
+                            <div class="navigation__dropdown-items navigation__dropdown-items--arrow">
+                                <i class='bx bx-chevron-right arrow'></i>
+                                <h2>Bonsai workflow</h2>
+                                <p>Look professional, win more clients and manage your business from one place</p>
+                            </div>
+                            <div class="navigation__dropdown-items">
+                                <h2>Bonsai Tax</h2>
+                                <p>Track expenses, maximize tax write-offs, and estimate taxes without the headache</p>
+                            </div>
+                            <div class="navigation__dropdown-items">
+                                <h2>Bonsai Cash</h2>
+                                <p>Bonsai's all-in-one finance hub: No fees and lightining fasy payouts</p>
+                            </div>
+                        </div>
+                        <div class="navigation__dropdown-content-aside">
+                            <div class="navigation__dropdown-items-aside">
+                                <div class="navigation__dropdown-item-logo">
+                                    <i class='bx bxs-notepad'></i>
+                                </div>
+                                <div class="navigation__dropdown-item-text">
+                                    <h3>Invoices</h3>
+                                    <p>Get paid faster with automatic invoicing, online payment and more</p>
+                                </div>
+                            </div>
+                            <div class="navigation__dropdown-items-aside">
+                                <div class="navigation__dropdown-item-logo">
+                                    <i class='bx bx-clipboard' ></i>
+                                </div>
+                                <div class="navigation__dropdown-item-text">
+                                    <h3>Proposals</h3>
+                                    <p>Create client-winning proposals with open receipts, custom packages and electronic approvals</p>
+                                </div>
+                            </div>
+                            <div class="navigation__dropdown-items-aside">
+                                <div class="navigation__dropdown-item-logo">
+                                    <i class='bx bx-clipboard' ></i>
+                                </div>
+                                <div class="navigation__dropdown-item-text">
+                                    <h3>Contracts</h3>
+                                    <p>Protect your business with fully-customizable contract templates</p>
+                                </div>
+                            </div>
+                            <div class="navigation__dropdown-items-aside">
+                                <div class="navigation__dropdown-item-logo">
+                                    <i class='bx bx-chat'></i>
+                                </div>
+                                <div class="navigation__dropdown-item-text">
+                                    <h3>Customer</h3>
+                                    <p>Add leads, manage existing clients and track project easily from one place</p>
+                                </div>
+                            </div>
+                            <div class="navigation__dropdown-items-aside">
+                                <div class="navigation__dropdown-item-logo">
+                                    <i class='bx bx-copy-alt' ></i>
+                                </div>
+                                <div class="navigation__dropdown-item-text">
+                                    <h3>Forms & Automations</h3>
+                                    <p>Boost client intake and automate feedback with custom web form </p>
+                                </div>
+                            </div>
+                            <div class="navigation__dropdown-items-aside">
+                                <div class="navigation__dropdown-item-logo">
+                                    <i class='bx bx-time' ></i>
+                                </div>
+                                <div class="navigation__dropdown-item-text">
+                                    <h3>Time tracking</h3>
+                                    <p>Stay organized with Bonsai's all-in-one time tracker, automated timesheets and billing system </p>
+                                </div>
+                            </div>
+                            <div class="navigation__dropdown-items-aside">
+                                <div class="navigation__dropdown-item-logo">
+                                    <i class='bx bx-coin-stack' ></i>
+                                </div>
+                                <div class="navigation__dropdown-item-text">
+                                    <h3>Accounting</h3>
+                                    <p>Manage your finance easily with income reports, expense tracking, tax reminders and more</p>
+                                </div>
+                            </div>
+                            <div class="navigation__dropdown-items-aside">
+                                <div class="navigation__dropdown-item-logo">
+                                    <i class='bx bx-task' ></i>
+                                </div>
+                                <div class="navigation__dropdown-item-text">
+                                    <h3>Task tracking</h3>
+                                    <p>Stress-free task management with project templates and integrated timesheets</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navigation__item navigation__item--flex">
+                    <div class="navigation__dropdown"> 
+                        <p>Templates</p>
+                        <button class="navigation__dropbtn">
+                            <i class='bx bx-chevron-down' ></i>
+                        </button>
+                        <div class="navigation__dropdown-content-templates">
+                          <h2>Featured Contract Templates</h2>
+                          <div class="navigation__dropdown-item-template">Free Contract Maker</div>
+                          <div class="navigation__dropdown-item-template">Social Media Management Contract Template</div>
+                          <div class="navigation__dropdown-item-template">Graphic Design Contract Template</div>
+                          <div class="navigation__dropdown-item-template">Digital Marketing Contract Template</div>
+                          <p>See All Templates</p>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="navigation__item">Pricing</li>
+                <li class="navigation__item">Reviews</li>
+            </ul>
+        </div>
+        <div class="navigation__buttons">
+            <button class="navigation__button navigation__button--login">Log in</button>
+            <button class="navigation__button navigation__button--start">Start free</button>
+        </div>
+    </nav>
 </body>
 </html>
